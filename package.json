@@ -1,0 +1,20 @@
+{
+  "name": "bbs2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch src/ src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^3.0.0",
+    "dotenv": "^8.0.0",
+    "knex": "^0.17.0-next3",
+    "koa-body": "^4.1.0",
+    "koa-router": "^7.4.0",
+    "mysql": "^2.17.1"
+  }
+}
