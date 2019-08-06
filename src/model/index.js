@@ -31,7 +31,7 @@ self.modifyContent = async ({ context_id, title, context }) => {
   const query = `
     UPDATE CONTENT
     SET title = ?, context = ?
-    WHERE context_id = ?;
+    WHERE content_id = ?;
   `;
   await db.raw(query, [title, context, context_id]);
 };
